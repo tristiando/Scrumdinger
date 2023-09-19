@@ -14,6 +14,7 @@
 		C21832582AB737550008C9B2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21832572AB737550008C9B2 /* Theme.swift */; };
 		C218325A2AB8A8AD0008C9B2 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21832592AB8A8AD0008C9B2 /* DailyScrum.swift */; };
 		C218325C2AB8A9500008C9B2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C218325B2AB8A9500008C9B2 /* CardView.swift */; };
+		C2D2CAC02ABA1155000B31B9 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C21832572AB737550008C9B2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C21832592AB8A8AD0008C9B2 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		C218325B2AB8A9500008C9B2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C21832562AB737380008C9B2 /* Models */,
 				C218324E2AB700B90008C9B2 /* Preview Content */,
 				C21832482AB700B90008C9B2 /* ScrumdingerApp.swift */,
+				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C218325A2AB8A8AD0008C9B2 /* DailyScrum.swift in Sources */,
+				C2D2CAC02ABA1155000B31B9 /* TrailingIconLabelStyle.swift in Sources */,
 				C21832582AB737550008C9B2 /* Theme.swift in Sources */,
 				C218324B2AB700B90008C9B2 /* MeetingView.swift in Sources */,
 				C21832492AB700B90008C9B2 /* ScrumdingerApp.swift in Sources */,
