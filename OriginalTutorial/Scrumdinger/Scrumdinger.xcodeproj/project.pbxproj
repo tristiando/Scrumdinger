@@ -67,8 +67,8 @@
 				C21832562AB737380008C9B2 /* Models */,
 				C218324E2AB700B90008C9B2 /* Preview Content */,
 				C21832482AB700B90008C9B2 /* ScrumdingerApp.swift */,
-				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
 				C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */,
+				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
