@@ -18,6 +18,7 @@
 		C2D2CAC22ABAFDBE000B31B9 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */; };
 		C2D2CAF02ABD54E9000B31B9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAEF2ABD54E9000B31B9 /* DetailView.swift */; };
 		C2D2CAF22ABD8E69000B31B9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */; };
+		C2D2CAF82AC3393E000B31B9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		C2D2CAEF2ABD54E9000B31B9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				C21832482AB700B90008C9B2 /* ScrumdingerApp.swift */,
 				C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */,
 				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
+				C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				C2D2CAC22ABAFDBE000B31B9 /* ScrumsView.swift in Sources */,
 				C218324B2AB700B90008C9B2 /* MeetingView.swift in Sources */,
 				C21832492AB700B90008C9B2 /* ScrumdingerApp.swift in Sources */,
+				C2D2CAF82AC3393E000B31B9 /* ThemeView.swift in Sources */,
 				C218325C2AB8A9500008C9B2 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
