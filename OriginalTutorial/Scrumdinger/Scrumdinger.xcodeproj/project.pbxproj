@@ -20,6 +20,7 @@
 		C2D2CAF22ABD8E69000B31B9 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */; };
 		C2D2CAF82AC3393E000B31B9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */; };
 		C2D2CAFA2AC33C77000B31B9 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */; };
+		C2D2CB002AC68B95000B31B9 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +80,10 @@
 				C218324E2AB700B90008C9B2 /* Preview Content */,
 				C21832482AB700B90008C9B2 /* ScrumdingerApp.swift */,
 				C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */,
-				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
-				C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */,
 				C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */,
+				C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */,
+				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
+				C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				C2D2CAFA2AC33C77000B31B9 /* ThemePicker.swift in Sources */,
 				C218325A2AB8A8AD0008C9B2 /* DailyScrum.swift in Sources */,
 				C2D2CAF02ABD54E9000B31B9 /* DetailView.swift in Sources */,
+				C2D2CB002AC68B95000B31B9 /* MeetingHeaderView.swift in Sources */,
 				C2D2CAF22ABD8E69000B31B9 /* DetailEditView.swift in Sources */,
 				C2D2CAC02ABA1155000B31B9 /* TrailingIconLabelStyle.swift in Sources */,
 				C21832582AB737550008C9B2 /* Theme.swift in Sources */,
