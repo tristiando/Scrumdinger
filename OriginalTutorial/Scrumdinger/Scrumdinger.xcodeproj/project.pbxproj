@@ -21,6 +21,8 @@
 		C2D2CAF82AC3393E000B31B9 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */; };
 		C2D2CAFA2AC33C77000B31B9 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */; };
 		C2D2CB002AC68B95000B31B9 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */; };
+		C2D2CB032AC69129000B31B9 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CB022AC69129000B31B9 /* ScrumProgressViewStyle.swift */; };
+		C2D2CB052AC6B06D000B31B9 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D2CB042AC6B06D000B31B9 /* ScrumTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		C2D2CB022AC69129000B31B9 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		C2D2CB042AC6B06D000B31B9 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +75,16 @@
 		C21832472AB700B90008C9B2 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				C2D2CB012AC690E6000B31B9 /* Views */,
 				C218324C2AB700B90008C9B2 /* Assets.xcassets */,
 				C218325B2AB8A9500008C9B2 /* CardView.swift */,
-				C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */,
-				C2D2CAEF2ABD54E9000B31B9 /* DetailView.swift */,
-				C218324A2AB700B90008C9B2 /* MeetingView.swift */,
 				C21832562AB737380008C9B2 /* Models */,
 				C218324E2AB700B90008C9B2 /* Preview Content */,
 				C21832482AB700B90008C9B2 /* ScrumdingerApp.swift */,
-				C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */,
 				C2D2CAF92AC33C77000B31B9 /* ThemePicker.swift */,
 				C2D2CAF72AC3393E000B31B9 /* ThemeView.swift */,
 				C2D2CABF2ABA1155000B31B9 /* TrailingIconLabelStyle.swift */,
-				C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */,
+				C2D2CB022AC69129000B31B9 /* ScrumProgressViewStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -99,10 +100,23 @@
 		C21832562AB737380008C9B2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C2D2CB042AC6B06D000B31B9 /* ScrumTimer.swift */,
 				C21832572AB737550008C9B2 /* Theme.swift */,
 				C21832592AB8A8AD0008C9B2 /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C2D2CB012AC690E6000B31B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2D2CAF12ABD8E69000B31B9 /* DetailEditView.swift */,
+				C2D2CAEF2ABD54E9000B31B9 /* DetailView.swift */,
+				C218324A2AB700B90008C9B2 /* MeetingView.swift */,
+				C2D2CAC12ABAFDBE000B31B9 /* ScrumsView.swift */,
+				C2D2CAFF2AC68B95000B31B9 /* MeetingHeaderView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D2CAFA2AC33C77000B31B9 /* ThemePicker.swift in Sources */,
+				C2D2CB032AC69129000B31B9 /* ScrumProgressViewStyle.swift in Sources */,
+				C2D2CB052AC6B06D000B31B9 /* ScrumTimer.swift in Sources */,
 				C218325A2AB8A8AD0008C9B2 /* DailyScrum.swift in Sources */,
 				C2D2CAF02ABD54E9000B31B9 /* DetailView.swift in Sources */,
 				C2D2CB002AC68B95000B31B9 /* MeetingHeaderView.swift in Sources */,
